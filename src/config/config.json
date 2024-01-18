@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "finance&",
+    "base_url": "https://charming-sunflower-79db85.netlify.app/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -10,28 +10,24 @@
     "logo_height": "31",
     "logo_text": "Pinwheel"
   },
-
   "settings": {
     "pagination": 6,
     "summary_length": 100,
     "blog_folder": "blog"
   },
-
   "call_to_action": {
     "title": "Helping teams in the world with focus",
     "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Get In Touch",
+      "link": "https://charming-sunflower-79db85.netlify.app"
     }
   },
-
   "disqus": {
     "enable": true,
     "shortname": "themefisher-template",
     "settings": {}
   },
-
   "params": {
     "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
     "email": "info@andromeda.io",
@@ -40,7 +36,6 @@
     "contact_form_action": "#",
     "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
   },
-
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "/images/og-image.png",

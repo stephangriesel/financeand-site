@@ -2,8 +2,8 @@
 title: "About"
 page_title: "About our company"
 buttons:
-  - label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+  - label: Get In Touch
+    link: "https://charming-sunflower-79db85.netlify.app"
     enable: true
   - label: Learn More
     link: "#"
@@ -28,7 +28,7 @@ counter:
     number: 20
     messurment: K
     color: "#FEC163"
-    
+
 # Gallery
 gallery:
   title: We started with one single goal Empower entrepreneurs
@@ -41,8 +41,8 @@ gallery:
 features:
   title: The six core work <br /> drive everything do
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Get In Touch
+    link: "https://charming-sunflower-79db85.netlify.app"
     enable: true
   features_list:
     - title: Accessibility
@@ -57,7 +57,6 @@ features:
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
     - title: Innovation
       content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    
 
 ## members
 members:
@@ -83,4 +82,5 @@ members:
       field: Software Engineer
       image: "/images/users/user-3.png"
 ---
+
 Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
