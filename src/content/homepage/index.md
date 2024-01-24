@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "Hello, I'm Belinda Roux, a Chartered Accountant with over 10 years of professional finance experience."
+  content: "As a freelance finance professional based in the Netherlands, I am passionate about collaborating on meaningful financial projects. Let's work together to achieve your financial goals."
   image: /images/banner-img.png
   button:
     label: Get In Touch
@@ -10,29 +10,45 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "What I bring to the table"
+  description: Expertise in Financial Strategy, Operational Control, and Reporting
   feature_list:
     - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Financial Modelling
-      content: "Detailed and customizable financial models & projections (including 3-statement model: Balance sheet, Income statement & Cash-flow statement)"
+      title: Strategic Financial Leadership
+      content: "Develop and execute comprehensive financial strategies with in-depth analysis.
+      Integrate Business Intelligence (BI) and Financial Planning & Analysis (FP&A)."
     - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Excel Consulting
-      content: Guidance and support for optimizing analysis, reporting, using Microsoft Excel.
+      title: Operational Control and Efficiency
+      content: Ensuring financial discipline and operational efficiency, I monitor KPIs, oversee internal controls, and implement cost optimization measures to enhance organizational performance.
+    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+      title: Budgeting and Reporting Excellence
+      content: Guiding precision in financial planning, I oversee budgeting and forecasting, collaborate with department heads, and present detailed reports to senior management, ensuring compliance with accounting standards.
 
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
+    title: Credentials
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
-      - title: Habit building essential choose habit
+      - title: Bachelor degree in Accounting (Honours)
         icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
-      - title: Get an overview of Habit Calendars.
+      - title: Chartered Accountant registered at SAICA.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/collaboration.png"
-      - title: Start building with Habitify platform
+      - title: Proven experience in Business and Strategic Control within FMCG
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Strong analytical and strategic thinking skills.
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Excellent communication and interpersonal skills.
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Proficient in financial modeling and analysis tools.
+        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/sells-by-country.png"
+      - title: Ability to adapt quickly to changing priorities and work effectively in a dynamic environment.
         icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
 
