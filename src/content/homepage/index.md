@@ -2,7 +2,7 @@
 banner:
   title: "Hello, I'm Belinda Roux, a Chartered Accountant with over 10 years of professional finance experience."
   content: "As a freelance finance professional based in the Netherlands, I am passionate about collaborating on meaningful financial projects. Let's work together to achieve your financial goals."
-  image: /images/banner-img.png
+  image: /images/banner-img.jpg
   button:
     label: Get In Touch
     link: "https://charming-sunflower-79db85.netlify.app"
