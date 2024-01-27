@@ -5,26 +5,21 @@
       "url": "/"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Pages",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Career",
+          "url": "/career"
+        }
+      ]
     }
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }
