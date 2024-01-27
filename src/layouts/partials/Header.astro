@@ -52,18 +52,18 @@ const { pathname } = Astro.url;
 
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden w-full lg:order-1 lg:flex lg:w-auto lg:space-x-2"
+      class="navbar-nav order-3 lg:hidden hidden w-full lg:order-1 lg:flex lg:w-auto lg:space-x-2"
     >
       {
         main.map((menu) => (
           <>
             {menu.hasChildren ? (
               <li
-                class="nav-item nav-dropdown group relative cursor-pointer "
+                class="nav-item hidden nav-dropdown group relative cursor-pointer "
                 id="dropdown-button"
               >
                 <span
-                  class={`nav-link inline-flex items-center ${
+                  class={`nav-link hidden inline-flex items-center ${
                     menu.children?.map(({ url }) => url).includes(pathname) ||
                     menu.children
                       ?.map(({ url }) => `${url}/`)
