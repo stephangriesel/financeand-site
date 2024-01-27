@@ -55,7 +55,7 @@ service:
   our_service:
     - title: "Get in touch: 3 Step approach"
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+      image: "/images/steps.svg"
       list:
         - "Introduction Call: Meet, discuss, and clarify project expectations."
         - "Proposal: Clear deliverables, detailed timeline, and total est price."
