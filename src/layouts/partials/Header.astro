@@ -115,30 +115,30 @@ const { pathname } = Astro.url;
       }
       <li class="nav-item mt-2 lg:hidden">
         <a class="btn btn-white btn-sm border-border" href="/signin">
-          Sing Up Now</a
+          Contact</a
         >
       </li>
     </ul>
     <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-      <a class="btn btn-white btn-sm" href="/signin"> Sing Up Now</a>
+      <a class="btn btn-white btn-sm" href="/signin"> Contact</a>
     </div>
   </nav>
 </header>
 <script is:inline>
-  const button = document.getElementById("dropdown-button");
-  button.addEventListener("click", () => {
-    const dropdown = document.getElementById("dropdown");
-    dropdown.classList.toggle(dropdown.style === "hidden" ? "block" : "hidden");
-  });
+const button = document.getElementById("dropdown-button");
+button.addEventListener("click", () => {
+  const dropdown = document.getElementById("dropdown");
+  dropdown.classList.toggle(dropdown.style === "hidden" ? "block" : "hidden");
+});
 
-  //sticky header
-  const header = document.querySelector(".header");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    if (scrollY > 0) {
-      header.classList.add("header-sticky");
-    } else {
-      header.classList.remove("header-sticky");
-    }
-  });
+//sticky header
+const header = document.querySelector(".header");
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  if (scrollY > 0) {
+    header.classList.add("header-sticky");
+  } else {
+    header.classList.remove("header-sticky");
+  }
+});
 </script>
