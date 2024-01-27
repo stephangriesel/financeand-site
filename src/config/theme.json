@@ -2,8 +2,8 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#FE6019",
-        "secondary": "#FEE140",
+        "primary": "#004aad",
+        "secondary": "#bcbcbc",
         "body": "#fafafa",
         "border": "#EBEBEB",
         "theme_light": "#E5E5E5",
@@ -16,7 +16,6 @@
       }
     }
   },
-
   "fonts": {
     "font_family": {
       "primary": "Poppins:wght@400;500;600;700",
