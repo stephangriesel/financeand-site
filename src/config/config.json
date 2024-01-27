@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "finance&",
-    "base_url": "https://charming-sunflower-79db85.netlify.app/",
+    "base_url": "https://www.financeand.nl",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -16,11 +16,11 @@
     "blog_folder": "blog"
   },
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "",
+    "description": "",
     "button": {
       "label": "Get In Touch",
-      "link": "https://charming-sunflower-79db85.netlify.app"
+      "link": "https://www.financeand.nl"
     }
   },
   "disqus": {
@@ -29,12 +29,12 @@
     "settings": {}
   },
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
-    "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "footer_description": "based in Amsterdam, Netherlands",
+    "email": "info@financeand.nl",
+    "location": "",
+    "phone": "",
+    "contact_form_action": "",
+    "copyright": ""
   },
   "metadata": {
     "meta_author": "Themefisher",
