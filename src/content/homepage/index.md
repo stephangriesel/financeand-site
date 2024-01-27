@@ -13,14 +13,14 @@ key_features:
   title: "What I bring to the table"
   description: Expertise in Financial Strategy, Operational Control, and Reporting
   feature_list:
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "eye" #icon package react-feather-icon [https://feathericons.com/]
       title: Strategic Financial Leadership
       content: "Develop and execute comprehensive financial strategies with in-depth analysis.
       Integrate Business Intelligence (BI) and Financial Planning & Analysis (FP&A)."
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "award" #icon package react-feather-icon [https://feathericons.com/]
       title: Operational Control and Efficiency
       content: Ensuring financial discipline and operational efficiency, I monitor KPIs, oversee internal controls, and implement cost optimization measures to enhance organizational performance.
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "target" #icon package react-feather-icon [https://feathericons.com/]
       title: Budgeting and Reporting Excellence
       content: Guiding precision in financial planning, I oversee budgeting and forecasting, collaborate with department heads, and present detailed reports to senior management, ensuring compliance with accounting standards.
 
@@ -28,51 +28,51 @@ key_features:
 service:
   homepage_tab:
     title: Credentials
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    description: ex Heineken | ex EY
     tab_list:
       - title: Bachelor degree in Accounting (Honours)
-        icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
       - title: Chartered Accountant registered at SAICA.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/collaboration.png"
       - title: Proven experience in Business and Strategic Control within FMCG
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
       - title: Strong analytical and strategic thinking skills.
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
       - title: Excellent communication and interpersonal skills.
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
       - title: Proficient in financial modeling and analysis tools.
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
       - title: Ability to adapt quickly to changing priorities and work effectively in a dynamic environment.
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
+        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
+    - title: "Get in touch: 3 Step approach"
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
       image: "/images/collaboration.png"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-      video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
-      button:
-        label: Know About Us
-        link: "#"
-        enable: true
+        - "Introduction Call: Meet, discuss, and clarify project expectations."
+        - "Proposal: Clear deliverables, detailed timeline, and total est price."
+        - "Get the Job Done: Provide regular progress updates."
+    # - title: Accountability that works for you
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+    #   video:
+    #     thumbnail: "/images/intro-thumbnail.png"
+    #     video_id: "g3-VxLQO7do"
+    #   button:
+    #     label: Know About Us
+    #     link: "#"
+    #     enable: true
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
+  title: Testimonials
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: SEBASTIAAN M.
@@ -85,39 +85,4 @@ testimonial:
       organization: Heineken
       rating: four
       content: VP FINANCE DIRECTOR Belinda is a Finance professional with a strategic thinking and passion for delivering results. She manages the ambiguity of the business world while always putting people first and caring of her teams and peers. Valuable team player who will bring her surroundings to the next level. I truly recommend her.
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
 ---
