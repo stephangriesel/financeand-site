@@ -5,7 +5,7 @@ banner:
   image: /images/banner-img.jpg
   button:
     label: Get In Touch
-    link: "https://charming-sunflower-79db85.netlify.app"
+    link: "/contact"
     enable: true
 
 ##key features
@@ -73,7 +73,7 @@ service:
 #testimonial
 testimonial:
   title: Testimonials
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  description: ""
   testimonial_list:
     - author: SEBASTIAAN M.
       avatar: "/images/users/user-5.png"
