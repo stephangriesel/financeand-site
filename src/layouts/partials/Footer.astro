@@ -6,7 +6,15 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const {
+  copyright,
+  location,
+  email,
+  phone,
+  footer_description,
+  chamber_commerce_number,
+  tax_number,
+} = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -16,6 +24,12 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <Logo />
         <p class="mt-6">
           {footer_description}
+        </p>
+        <p>
+          KVK: {chamber_commerce_number}
+        </p>
+        <p>
+          BTW-id: {tax_number}
         </p>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
