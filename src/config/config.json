@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "finance&"
   },
   "settings": {
     "pagination": 6,
@@ -24,12 +24,14 @@
     }
   },
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "finance&",
     "settings": {}
   },
   "params": {
     "footer_description": "based in Amsterdam, Netherlands",
+    "chamber_commerce_number": "92655572",
+    "tax_number": "NL004967694B67",
     "email": "info@financeand.nl",
     "location": "",
     "phone": "",
@@ -37,8 +39,8 @@
     "copyright": ""
   },
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_author": "Consulitate",
+    "meta_image": "",
+    "meta_description": ""
   }
 }
