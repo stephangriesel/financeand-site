@@ -75,14 +75,14 @@ testimonial:
   title: Testimonials
   description: ""
   testimonial_list:
-    - author: Heineken
-      avatar: "/images/users/user-5.png"
+    - author: SENIOR BUSINESS CONTROL
+      avatar: "/images/logos/heineken-final.png"
       organization: SEBASTIAAN M.
       rating: four
-      content: SENIOR BUSINESS CONTROL Very much enjoyed working together with Belinda, she brings refreshing perspectives to the business with an eye for people.
-    - author: Heineken
-      avatar: "/images/users/user-6.png"
+      content: Very much enjoyed working together with Belinda, she brings refreshing perspectives to the business with an eye for people.
+    - author: VP FINANCE DIRECTOR
+      avatar: "/images/logos/heineken-final.png"
       organization: RAMIRO D.
       rating: four
-      content: VP FINANCE DIRECTOR Belinda is a Finance professional with a strategic thinking and passion for delivering results. She manages the ambiguity of the business world while always putting people first and caring of her teams and peers. Valuable team player who will bring her surroundings to the next level. I truly recommend her.
+      content: Belinda is a Finance professional with a strategic thinking and passion for delivering results. She manages the ambiguity of the business world while always putting people first and caring of her teams and peers. Valuable team player who will bring her surroundings to the next level. I truly recommend her.
 ---
