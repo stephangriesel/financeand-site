@@ -96,7 +96,7 @@
 }
 
 .tab-nav-item.active {
-  border-bottom: 3px solid #aaa;
+  border-bottom: none;
   opacity: 1;
 }
 
@@ -377,9 +377,9 @@ select:invalid {
   .tab-nav-item {
     @apply mb-4 flex rounded py-0 text-dark opacity-100;
   }
-  .tab-nav-item.active {
-    @apply border-b-0 bg-primary/40 py-3.5;
-  }
+  // .tab-nav-item.active {
+  //   @apply border-b-0 bg-primary/40 py-3.5;
+  // }
 }
 // career
 .benifit-icon {
