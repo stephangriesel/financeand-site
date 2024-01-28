@@ -13,14 +13,14 @@ key_features:
   title: "What I bring to the table"
   description: Expertise in Financial Strategy, Operational Control, and Reporting
   feature_list:
-    - icon: "eye" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "target" #icon package react-feather-icon [https://feathericons.com/]
       title: Strategic Financial Leadership
       content: "Develop and execute comprehensive financial strategies with in-depth analysis.
       Integrate Business Intelligence (BI) and Financial Planning & Analysis (FP&A)."
-    - icon: "award" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "eye" #icon package react-feather-icon [https://feathericons.com/]
       title: Operational Control and Efficiency
       content: Ensuring financial discipline and operational efficiency, I monitor KPIs, oversee internal controls, and implement cost optimization measures to enhance organizational performance.
-    - icon: "target" #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "award" #icon package react-feather-icon [https://feathericons.com/]
       title: Budgeting and Reporting Excellence
       content: Guiding precision in financial planning, I oversee budgeting and forecasting, collaborate with department heads, and present detailed reports to senior management, ensuring compliance with accounting standards.
 
@@ -32,25 +32,25 @@ service:
     tab_list:
       - title: Bachelor degree in Accounting (Honours)
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
       - title: Chartered Accountant registered at SAICA.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/collaboration.png"
+        image: "/images/graduate.svg"
       - title: Proven experience in Business and Strategic Control within FMCG
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
       - title: Strong analytical and strategic thinking skills.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
       - title: Excellent communication and interpersonal skills.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
       - title: Proficient in financial modeling and analysis tools.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
       - title: Ability to adapt quickly to changing priorities and work effectively in a dynamic environment.
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+        image: "/images/graduate.svg"
 
   our_service:
     - title: "Get in touch: 3 Step approach"
@@ -75,14 +75,14 @@ testimonial:
   title: Testimonials
   description: ""
   testimonial_list:
-    - author: SEBASTIAAN M.
+    - author: Heineken
       avatar: "/images/users/user-5.png"
-      organization: Heineken
+      organization: SEBASTIAAN M.
       rating: four
       content: SENIOR BUSINESS CONTROL Very much enjoyed working together with Belinda, she brings refreshing perspectives to the business with an eye for people.
-    - author: RAMIRO D.
+    - author: Heineken
       avatar: "/images/users/user-6.png"
-      organization: Heineken
+      organization: RAMIRO D.
       rating: four
       content: VP FINANCE DIRECTOR Belinda is a Finance professional with a strategic thinking and passion for delivering results. She manages the ambiguity of the business world while always putting people first and caring of her teams and peers. Valuable team player who will bring her surroundings to the next level. I truly recommend her.
 ---
