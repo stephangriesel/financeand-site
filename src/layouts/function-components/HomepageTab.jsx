@@ -5,7 +5,7 @@ import * as Icon from "react-feather";
 const HomepageTab = ({ homepage_tab: { tab_list, title, description } }) => {
   const [tab, setTab] = useState(0);
   return (
-    <div className="tab gx-5 row items-center">
+    <div className="tab gx-5 mt-10 mb-10 row items-center">
       <div className="lg:col-7 lg:order-2">
         <div className="tab-content">
           {tab_list.map((item, index) => (
