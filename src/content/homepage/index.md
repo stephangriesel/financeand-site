@@ -52,14 +52,7 @@ service:
         icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
         image: "/images/graduate.svg"
 
-  our_service:
-    - title: "Get in touch: 3 Step approach"
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/steps.png"
-      list:
-        - "Introduction Call: Meet, discuss, and clarify project expectations."
-        - "Proposal: Clear deliverables, detailed timeline, and total est price."
-        - "Get the Job Done: Provide regular progress updates."
+  our_service: []
     # - title: Accountability that works for you
     #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
     #   video:

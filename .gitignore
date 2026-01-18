@@ -2,3 +2,6 @@ node_modules
 .astro
 
 content
+dist/
+temp/
+.DS_Store

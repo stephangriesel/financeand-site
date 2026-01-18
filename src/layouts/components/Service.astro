@@ -1,7 +1,7 @@
 ---
 import HomepageTab from "@layouts/function-components/HomepageTab";
 import VideoComponent from "@layouts/function-components/VideoComponent";
-import { AiFillCheckCircle } from "react-icons/ai/index.js";
+
 import { Image } from "@astrojs/image/components";
 const { service } = Astro.props;
 const { homepage_tab, our_service } = service;
@@ -58,15 +58,7 @@ const { homepage_tab, our_service } = service;
                   {item.button.label}
                 </a>
               )}
-              <ul class="mt-6 text-dark lg:-ml-4">
-                {item.list &&
-                  item.list.map((list: any) => (
-                    <li class="mb-2 flex items-center rounded px-4">
-                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
-                      {list}
-                    </li>
-                  ))}
-              </ul>
+
             </div>
           </div>
         </div>
