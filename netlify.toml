@@ -3,7 +3,7 @@ publish = "dist"
 command = "pnpm run build"
 
 [build.environment]
-NODE_VERSION = "18"
+NODE_VERSION = "20"
 
 [[headers]]
 for = "/*" # This defines which paths this specific [[headers]] block will cover.
