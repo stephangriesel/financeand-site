@@ -7,10 +7,6 @@ import { getEntryBySlug } from "astro:content";
 const entry = await getEntryBySlug("contact", "index");
 const { contact_form_action } = config.params;
 const contact = entry.data;
-const page_data = {
-  ...contact,
-  content: contact.body,
-};
 ---
 
 <Base
@@ -41,53 +37,58 @@ const page_data = {
         </div>
         <div class="md:col-6 md:order-1 self-center flex">
           <form
+            id="contact-form"
             class="lg:max-w-[484px]"
             action={contact_form_action}
             method="POST"
           >
-            <!-- Optional: Redirect to your success page -->
-            <input
-              name="_redirect"
-              type="hidden"
-              value="https://www.financeand.nl/success"
-            />
+            <input name="_redirect" type="hidden" value="https://www.financeand.nl/success" />
+            <input name="_redirect_error" type="hidden" value="https://www.financeand.nl/error" />
 
-            <!-- Optional: Redirect to your error page -->
-            <input
-              name="_redirect_error"
-              type="hidden"
-              value="https://www.financeand.nl/error"
-            />
+            <!-- Honeypot: hidden from humans via CSS, bots fill it and get silently rejected -->
+            <div aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden;" tabindex="-1">
+              <label for="contact_url">Website URL</label>
+              <input type="text" id="contact_url" name="contact_url" tabindex="-1" autocomplete="off" />
+            </div>
+
             <div class="form-group mb-5">
               <label class="form-label" for="name">Full Name</label>
               <input
                 class="form-control"
                 type="text"
+                id="name"
                 name="name"
                 placeholder="Your Name"
+                required
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="eamil">Email Address</label>
+              <label class="form-label" for="email">Email Address</label>
               <input
                 class="form-control"
-                type="text"
+                type="email"
+                id="email"
                 name="email"
                 placeholder="Your Email Address"
+                required
               />
             </div>
             <div class="form-group mb-5">
               <label class="form-label" for="message">Message:</label>
               <textarea
                 class="form-control h-[150px]"
+                id="message"
                 name="message"
                 cols="30"
-                rows="10"></textarea>
+                rows="10"
+                required></textarea>
             </div>
             <input
+              id="contact-submit"
               class="btn btn-primary block w-full"
               type="submit"
               value="Send Message"
+              disabled
             />
           </form>
         </div>
@@ -95,3 +96,31 @@ const page_data = {
     </div>
   </section>
 </Base>
+
+<script>
+  (function () {
+    const form = document.getElementById("contact-form") as HTMLFormElement | null;
+    const submitBtn = document.getElementById("contact-submit") as HTMLInputElement | null;
+    if (!form || !submitBtn) return;
+
+    const loadedAt = Date.now();
+    // Enable the button after 3 seconds — bots submit immediately
+    setTimeout(() => {
+      submitBtn.disabled = false;
+    }, 3000);
+
+    form.addEventListener("submit", function (e) {
+      const honeypot = form.querySelector<HTMLInputElement>('[name="contact_url"]');
+      if (honeypot && honeypot.value.trim() !== "") {
+        e.preventDefault();
+        return;
+      }
+
+      const elapsed = Date.now() - loadedAt;
+      if (elapsed < 3000) {
+        e.preventDefault();
+        return;
+      }
+    });
+  })();
+</script>
