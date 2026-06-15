@@ -16,10 +16,5 @@
       ]
     }
   ],
-  "footer": [
-    {
-      "name": "Contact",
-      "url": "/contact"
-    }
-  ]
+  "footer": []
 }
